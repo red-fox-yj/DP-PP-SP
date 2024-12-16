@@ -66,8 +66,6 @@ TP and PP
 | 5     | 0.0002        | 1.1961          | 0.827               | 42.01          |
 
 ![training_loss_vs_epochs](https://github.com/user-attachments/assets/8d99bf7f-6876-42ad-9590-9b40f396fc80)
-
 ![validation_loss_vs_epochs](https://github.com/user-attachments/assets/c85a4ab5-cacd-4a30-af41-80155dfd422f)
-
 ![validation_accuracy_vs_epochs](https://github.com/user-attachments/assets/9836e4f9-cfe1-41a0-a1e8-6acd989d2a3d)
 
