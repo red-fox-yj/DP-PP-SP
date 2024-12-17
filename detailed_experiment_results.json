@@ -1,173 +1,173 @@
 [
     {
         "Experiment": "No TP/PP",
-        "Total Training Time (s)": 209.70840287208557,
-        "Throughput (samples/s)": 238.42630679180826,
+        "Total Training Time (s)": 7523.397030353546,
+        "Throughput (samples/s)": 241.81629557233492,
         "Max GPU Memory (GB)": 3.500487804412842,
         "Epoch Results": [
             {
                 "Epoch": 1,
-                "Training Loss": 0.613899609375,
-                "Validation Loss": 0.5375821552579365,
-                "Validation Accuracy": 0.69,
-                "Epoch Time (s)": 42.263731956481934
+                "Training Loss": 0.3052169858851055,
+                "Validation Loss": 0.24749354312294408,
+                "Validation Accuracy": 0.893668068266139,
+                "Epoch Time (s)": 1522.3471097946167
             },
             {
                 "Epoch": 2,
-                "Training Loss": 0.37787021484375,
-                "Validation Loss": 0.4131808810763889,
-                "Validation Accuracy": 0.805,
-                "Epoch Time (s)": 41.9741632938385
+                "Training Loss": 0.1796138918256703,
+                "Validation Loss": 0.2258491078336389,
+                "Validation Accuracy": 0.9081869898590156,
+                "Epoch Time (s)": 1470.9899461269379
             },
             {
                 "Epoch": 3,
-                "Training Loss": 0.223458447265625,
-                "Validation Loss": 0.41990734281994047,
-                "Validation Accuracy": 0.826,
-                "Epoch Time (s)": 41.6449031829834
+                "Training Loss": 0.08182360047028849,
+                "Validation Loss": 0.28518697476736116,
+                "Validation Accuracy": 0.9070492208755875,
+                "Epoch Time (s)": 1516.343405008316
             },
             {
                 "Epoch": 4,
-                "Training Loss": 0.08881048583984374,
-                "Validation Loss": 0.5951964363219246,
-                "Validation Accuracy": 0.822,
-                "Epoch Time (s)": 41.97419738769531
+                "Training Loss": 0.04160931910212932,
+                "Validation Loss": 0.3185040805006763,
+                "Validation Accuracy": 0.9063071976255256,
+                "Epoch Time (s)": 1505.2184524536133
             },
             {
                 "Epoch": 5,
-                "Training Loss": 0.05269788818359375,
-                "Validation Loss": 0.6220862978980655,
-                "Validation Accuracy": 0.812,
-                "Epoch Time (s)": 41.851407051086426
+                "Training Loss": 0.02758152284333251,
+                "Validation Loss": 0.3864772067883291,
+                "Validation Accuracy": 0.9063566658421964,
+                "Epoch Time (s)": 1508.4981169700623
             }
         ]
     },
     {
         "Experiment": "TP Only",
-        "Total Training Time (s)": 210.43040299415588,
-        "Throughput (samples/s)": 237.6082509398065,
+        "Total Training Time (s)": 7555.373941659927,
+        "Throughput (samples/s)": 240.7928467932722,
         "Max GPU Memory (GB)": 5.131836891174316,
         "Epoch Results": [
             {
                 "Epoch": 1,
-                "Training Loss": 0.07553290710449219,
-                "Validation Loss": 0.6338158259316097,
-                "Validation Accuracy": 0.823,
-                "Epoch Time (s)": 42.19612145423889
+                "Training Loss": 0.05336947300824016,
+                "Validation Loss": 0.3801317110710763,
+                "Validation Accuracy": 0.9077417759089785,
+                "Epoch Time (s)": 1522.3458666801453
             },
             {
                 "Epoch": 2,
-                "Training Loss": 0.012474414825439453,
-                "Validation Loss": 0.7924591700236002,
-                "Validation Accuracy": 0.824,
-                "Epoch Time (s)": 41.86558198928833
+                "Training Loss": 0.015410935127568965,
+                "Validation Loss": 0.4111108351801052,
+                "Validation Accuracy": 0.9068266139005688,
+                "Epoch Time (s)": 1507.21790599823
             },
             {
                 "Epoch": 3,
-                "Training Loss": 0.005773593521118164,
-                "Validation Loss": 1.004065786089216,
-                "Validation Accuracy": 0.81,
-                "Epoch Time (s)": 41.96036338806152
+                "Training Loss": 0.017134629869140248,
+                "Validation Loss": 0.41158647680169375,
+                "Validation Accuracy": 0.9074449666089538,
+                "Epoch Time (s)": 1508.9338471889496
             },
             {
                 "Epoch": 4,
-                "Training Loss": 0.005128711700439453,
-                "Validation Loss": 0.96407593621148,
-                "Validation Accuracy": 0.819,
-                "Epoch Time (s)": 42.25921320915222
+                "Training Loss": 0.014784842715152865,
+                "Validation Loss": 0.4537373541323243,
+                "Validation Accuracy": 0.908780608459065,
+                "Epoch Time (s)": 1509.9506242275238
             },
             {
                 "Epoch": 5,
-                "Training Loss": 0.015083256530761719,
-                "Validation Loss": 0.8852220565553696,
-                "Validation Accuracy": 0.8,
-                "Epoch Time (s)": 42.14912295341492
+                "Training Loss": 0.01327789639174836,
+                "Validation Loss": 0.3978771085459864,
+                "Validation Accuracy": 0.9057877813504823,
+                "Epoch Time (s)": 1506.9256975650787
             }
         ]
     },
     {
         "Experiment": "PP Only",
-        "Total Training Time (s)": 211.26232481002808,
-        "Throughput (samples/s)": 236.67258251068262,
+        "Total Training Time (s)": 7556.621608495712,
+        "Throughput (samples/s)": 240.75308970805565,
         "Max GPU Memory (GB)": 5.131954193115234,
         "Epoch Results": [
             {
                 "Epoch": 1,
-                "Training Loss": 0.04952346839904785,
-                "Validation Loss": 0.8433206346299913,
-                "Validation Accuracy": 0.811,
-                "Epoch Time (s)": 42.2177791595459
+                "Training Loss": 0.035714356637998074,
+                "Validation Loss": 0.42387242179450946,
+                "Validation Accuracy": 0.9081127875340094,
+                "Epoch Time (s)": 1520.7393186092377
             },
             {
                 "Epoch": 2,
-                "Training Loss": 0.0024908639907836915,
-                "Validation Loss": 1.0820505240606884,
-                "Validation Accuracy": 0.807,
-                "Epoch Time (s)": 42.294901609420776
+                "Training Loss": 0.008204392450926544,
+                "Validation Loss": 0.4623303878764933,
+                "Validation Accuracy": 0.9055404402671283,
+                "Epoch Time (s)": 1510.8569285869598
             },
             {
                 "Epoch": 3,
-                "Training Loss": 0.002533238410949707,
-                "Validation Loss": 1.0177296305459642,
-                "Validation Accuracy": 0.818,
-                "Epoch Time (s)": 42.499470233917236
+                "Training Loss": 0.010712266935479603,
+                "Validation Loss": 0.42195675617911665,
+                "Validation Accuracy": 0.9077665100173139,
+                "Epoch Time (s)": 1508.2706851959229
             },
             {
                 "Epoch": 4,
-                "Training Loss": 0.0016480443000793457,
-                "Validation Loss": 1.0366728495037745,
-                "Validation Accuracy": 0.819,
-                "Epoch Time (s)": 42.35695791244507
+                "Training Loss": 0.010110865387426539,
+                "Validation Loss": 0.445329030677175,
+                "Validation Accuracy": 0.9088795448924066,
+                "Epoch Time (s)": 1507.5507416725159
             },
             {
                 "Epoch": 5,
-                "Training Loss": 0.011238261032104492,
-                "Validation Loss": 0.8813378470284599,
-                "Validation Accuracy": 0.819,
-                "Epoch Time (s)": 41.8932158946991
+                "Training Loss": 0.009478725796665094,
+                "Validation Loss": 0.45511477187918636,
+                "Validation Accuracy": 0.9102151867425179,
+                "Epoch Time (s)": 1509.203934431076
             }
         ]
     },
     {
         "Experiment": "TP and PP",
-        "Total Training Time (s)": 210.10881423950195,
-        "Throughput (samples/s)": 237.9719298353912,
+        "Total Training Time (s)": 7476.1229956150055,
+        "Throughput (samples/s)": 243.34538116441746,
         "Max GPU Memory (GB)": 5.131438732147217,
         "Epoch Results": [
             {
                 "Epoch": 1,
-                "Training Loss": 0.026547888565063477,
-                "Validation Loss": 0.9646020768180726,
-                "Validation Accuracy": 0.809,
-                "Epoch Time (s)": 42.05651617050171
+                "Training Loss": 0.026289713505384744,
+                "Validation Loss": 0.43778897985244014,
+                "Validation Accuracy": 0.910660400692555,
+                "Epoch Time (s)": 1517.3194983005524
             },
             {
                 "Epoch": 2,
-                "Training Loss": 0.0008094894409179687,
-                "Validation Loss": 1.1380404158244057,
-                "Validation Accuracy": 0.825,
-                "Epoch Time (s)": 42.013569831848145
+                "Training Loss": 0.005956356039798321,
+                "Validation Loss": 0.49652960935410745,
+                "Validation Accuracy": 0.9057135790254761,
+                "Epoch Time (s)": 1453.8557558059692
             },
             {
                 "Epoch": 3,
-                "Training Loss": 0.0009475259780883789,
-                "Validation Loss": 1.091859635852632,
-                "Validation Accuracy": 0.825,
-                "Epoch Time (s)": 41.928261041641235
+                "Training Loss": 0.008092440404959485,
+                "Validation Loss": 0.4781262938052616,
+                "Validation Accuracy": 0.9060103883255008,
+                "Epoch Time (s)": 1509.8443129062653
             },
             {
                 "Epoch": 4,
-                "Training Loss": 0.00021991147994995116,
-                "Validation Loss": 1.1478851219964405,
-                "Validation Accuracy": 0.829,
-                "Epoch Time (s)": 42.09596371650696
+                "Training Loss": 0.007599828336668814,
+                "Validation Loss": 0.4495974423199432,
+                "Validation Accuracy": 0.9088548107840713,
+                "Epoch Time (s)": 1497.5000677108765
             },
             {
                 "Epoch": 5,
-                "Training Loss": 0.00023476877212524414,
-                "Validation Loss": 1.196111188048408,
-                "Validation Accuracy": 0.827,
-                "Epoch Time (s)": 42.014503479003906
+                "Training Loss": 0.007750192969587955,
+                "Validation Loss": 0.4841102504381135,
+                "Validation Accuracy": 0.907395498392283,
+                "Epoch Time (s)": 1497.6033608913422
             }
         ]
     }

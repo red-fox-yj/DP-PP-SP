@@ -17,8 +17,12 @@ LR = 2e-5
 # 数据加载函数
 def load_data(sample_size):
     dataset = load_dataset("glue", "qqp")
-    train_data = dataset["train"].train_test_split(train_size=sample_size, seed=42)["train"]
-    val_data = dataset["validation"].train_test_split(train_size=sample_size // 10, seed=42)["train"]
+    # train_data = dataset["train"].train_test_split(train_size=sample_size, seed=42)["train"]
+    # val_data = dataset["validation"].train_test_split(train_size=sample_size // 10, seed=42)["train"]
+    train_data = dataset["train"]
+    val_data = dataset["validation"]
+    print(f"Training set size: {len(train_data)} samples")
+    print(f"Validation set size: {len(val_data)} samples")
     return train_data, val_data
 
 # 自定义数据集类
